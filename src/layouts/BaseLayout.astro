@@ -12,13 +12,21 @@ const {title} = Astro.props;
     <meta name="keywords" content="HTML, CSS, Astro" />
     <title>BOOKS RECOMENDATION - {title}</title>
     <link rel="stylesheet" type="text/css" href={Astro.resolve('../styles/base.css')} />
+    <link
+ href="https://chatcompose.azureedge.net
+/static/all/global/export/css/main.5b1b
+d1fd.css" rel="stylesheet">
+<script
+async type="text/javascript"
+src="https://chatcompose.azureedge.net/static/all/global/export/js/main.a7059cb5.js?user=rabel&lang=ES" user="rabel"
+lang="ES"></script>
   </head> 
   <body>
     <div id="header">
       <div class="container">
         <div id="logo">
           <!-- Aquí irá el logo -->
-          <a href="/home">
+          <a href="/">
             <img class="logo" src={Logo} />
           </a>
         </div>
@@ -34,5 +42,6 @@ const {title} = Astro.props;
     </div>
     <!-- ======== Pie de página ========= -->
     <FootLayout></FootLayout>
+
   </body>
 </html>
